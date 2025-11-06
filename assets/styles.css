@@ -57,13 +57,19 @@ main{
 }
 
 .div-grid{
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    gap: 5rem;
+    margin-bottom: 5rem;
 }
 
+.h2Titel{
+    font-size: 1.3rem;
+    padding: 0rem;
+    margin: 0rem;
 
+}
 
 
 .image{
@@ -77,9 +83,13 @@ main{
 .introtext{
     grid-column: span 1;
     grid-row: span 1;
+    width: 22rem;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 
 .list-flex{
     height: auto;
 }
+
